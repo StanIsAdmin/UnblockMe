@@ -1,0 +1,29 @@
+Parking: 6 fois 6
++---+---+   +---+---+---+
+|                       |
++   +   +   +   +   +
+| 1   1   2   2   3     |
++   +   +   +   +   +   +
+| 4   4   4   5   3     |
++   +   +   +   +   +   +
+|     6       5   7   7 |
++   +   +   +   +   +   +
+| 8   6   G           10|
++   +   +   +   +   +   +
+| 8   6   G   9   9   10|
++---+---+---+---+---+---+
+Elements du Parking:
+ voiture Goal: 1
+ autre voitures: 10
+Emplacements:
+ voiture Goal: [(4,2), (5,2)]
+ voiture 1: [(1,0), (1,1)]
+ voiture 2: [(1,2), (1,3)]
+ voiture 3: [(1,4), (2,4)]
+ voiture 4: [(2,0), (2,2)]
+ voiture 5: [(2,3), (3,3)]
+ voiture 6: [(3,1), (5,1)]
+ voiture 7: [(3,4), (3,5)]
+ voiture 8: [(4,0), (5,0)]
+ voiture 9: [(5,3), (5,4)]
+ voiture 10: [(4,5), (5,5)]

@@ -1,0 +1,20 @@
+Parking: 5 fois 5
++---+---+---+---+---+
+|     1   1         |
++   +   +   +   +   +
+|         2         |
++   +   +   +   +   +
+| G   G   2   3   3 
++   +   +   +   +   +
+|                   |
++   +   +   +   +   +
+|                   |
++---+---+---+---+---+
+Elements du Parking:
+		 voiture Goal: 1
+		 autre voitures: 3
+Emplacements:
+		 voiture Goal: [(2,0), (2,1)]
+		 voiture 1: [(0,1), (0,2)]
+		 voiture 2: [(1,2), (2,2)]
+		 voiture 3: [(2,3), (2,4)]

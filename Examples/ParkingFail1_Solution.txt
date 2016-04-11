@@ -1,0 +1,13 @@
+Situation :
++---+---+---+---+---+
+|     c1  c1        |
++   +   +   +   +   +
+|         c2        |
++   +   +   +   +   +
+| G   G   c2  c3  c3 
++   +   +   +   +   +
+|                   |
++   +   +   +   +   +
+|                   |
++---+---+---+---+---+
+Il n'y a pas de solution car la sortie est bloquee par la voiture 3
