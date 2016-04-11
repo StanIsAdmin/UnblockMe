@@ -1,19 +1,18 @@
 JFLAGS = -g
-JC = javac
-
-.SUFFIXES: .java .class
-
-.java.class:
-		$(JC) $(JFLAGS) $*.java
+JCOMP = javac
+SOURCES = src
+BINARIES = bin
 
 CLASSES = \
-        Move.java \
-        Parking.java \
-        Escape.java
+        $(SOURCES)/Move.java \
+        $(SOURCES)/Parking.java \
+        $(SOURCES)/Escape.java
 
-default: classes
+default: all
 
-classes: $(CLASSES:.java=.class)
+all: 
+		mkdir -p bin
+		$(JCOMP) $(JFLAGS) $(SOURCES)/*.java -d $(BINARIES)
 
 clean:
-		$(RM) *.class
+		rm -r $(BINARIES)
